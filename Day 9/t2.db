@@ -1,0 +1,20 @@
+create table tb3(
+    -> id int(10),
+    -> name varchar(10),
+    -> course varchar(15),
+    -> fees int(15));
+
+
+
+
+ insert into tb3
+    -> values(1,'abish','web development',5000),
+    -> (2,'siva','Cloud',6000),
+    -> (3,'ram','Devops',2000),
+    -> (4,'anwar','Business In',9000);
+
+
+
+ select*
+    -> from tb3
+    -> order by fees asc;
