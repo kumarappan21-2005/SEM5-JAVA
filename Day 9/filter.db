@@ -1,0 +1,20 @@
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    country VARCHAR(50),
+    email VARCHAR(100),
+    active BOOLEAN
+);
+
+
+insert into customers (id, name, age, ctry) values
+(1, 'Abi', 28, 'usa'),
+(2, 'sanjay', 34, 'canada');
+
+
+select * from customers
+where country = 'USA';
+
+SELECT * FROM customers
+where age = 28;
